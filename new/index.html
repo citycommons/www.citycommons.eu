@@ -27,12 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Knight - v2.1.0
-  * Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -41,8 +35,8 @@
   <section id="hero">
     <div class="hero-container">
       <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/image/cc-logo180.png" alt=""></a>
-      <h1 data-aos="zoom-in">CITY COMMONS</h1>
-      <h2 data-aos="fade-up">metodologia prin care comunele, orasele, judetele si regiunile isi planifica si implementeaza propria dezvoltare, in mod inteligent, sustenabil si rezilient.</h2>
+      <h1 data-aos="zoom-in" id="hero.titlu">CITY COMMONS</h1>
+      <h2 data-aos="fade-up" id="hero.subtitlu">metodologia prin care comunele, orasele, judetele si regiunile isi planifica si implementeaza propria dezvoltare, in mod inteligent, sustenabil si rezilient.</h2>
       <a data-aos="fade-up" href="#why" class="btn-get-started scrollto">Start</a>
     </div>
   </section><!-- End Hero -->
@@ -63,12 +57,12 @@
 		
           <li class="drop-down"><a href="index.html">Home</a>
 		  <ul>
-              <li><a href="#faq">Terminologie</a></li>
-			  <li><a href="#why">Motivatie</a></li>
-              <li><a href="#whom">Audienta</a></li>
-			  <li><a href="#parcurs">Parcurs</a></li>
-			  <li><a href="#testimonial">Testimoniale</a></li>
-			  <li><a href="#team">Echipa</a></li>
+              <li><a href="#faq" id="terminologie.menu">Ce inseamna</a></li>
+			  <li><a href="#why" id="motivatie.menu">Care este motivatia</a></li>
+              <li><a href="#whom" id="audienta.menu">Pentru cine</a></li>
+			  <li><a href="#parcurs" id="parcurs.menu">Care este parcursul</a></li>
+			  <li><a href="#testimonial">Ce spun altii</a></li>
+			  <li><a href="#team">Cine suntem</a></li>
 			  
 			  
 		  </ul>
@@ -110,56 +104,23 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Terminologie</h2>
-		  <p>Care sunt principalii termeni pe care merita sa ii clarificam din start?</p>
+          <h2 id="terminologie.titlu">Ce inseamna</h2>
+		  <p id="terminologie.subtitlu">Care sunt principalii termeni pe care merita sa ii clarificam din start?</p>
         </div>
 
-        <ul class="faq-list">
+        <ul class="faq-list" id="faq.list">
 
-          <li data-aos="fade-up">
-            <a data-toggle="collapse" class="collapsed" href="#faq1">Cum definim o <strong>dezvoltare inteligenta</strong>? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq1" class="collapse" data-parent=".faq-list">
-              <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-              </p>
+          <li data-aos="fade-up" id="faq.element" style="display: none;">			
+            <a data-toggle="collapse" class="collapsed" href="" >
+				<span></span>
+				<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i>
+			</a>
+            <div id="" class="collapse" data-parent=".faq-list">
+              <p>                
+              </p>			  
             </div>
           </li>
 
-          <li data-aos="fade-up" data-aos-delay="100">
-            <a data-toggle="collapse" href="#faq2" class="collapsed">Ce inseamna o <strong>dezvoltare sustenabila</strong>? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq2" class="collapse" data-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="200">
-            <a data-toggle="collapse" href="#faq3" class="collapsed">Dar una <strong>rezilienta</strong>? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq3" class="collapse" data-parent=".faq-list">
-              <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="300">
-            <a data-toggle="collapse" href="#faq4" class="collapsed">Ce presupune o <strong>metodologie de lucru</strong> (framework)? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq4" class="collapse" data-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="400">
-            <a data-toggle="collapse" href="#faq5" class="collapsed">Care este <strong>rolul unei metodologii</strong>? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq5" class="collapse" data-parent=".faq-list">
-              <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-              </p>
-            </div>
-          </li>
 
         </ul>
 
@@ -173,8 +134,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Motivatie</h2>
-          <p>Ce anume ne-a determinat sa facem primul pas si de ce credem ca este el necesar?</p>
+          <h2 id="motivatie.titlu">Care este motivatia</h2>
+          <p id="motivatie.subtitlu">Ce anume ne-a determinat sa facem primul pas si de ce credem ca este el necesar?</p>
         </div>
 
         <div class="row">
@@ -184,7 +145,7 @@
             </div>
           </div>
           <div class="col-lg-6" >
-            <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 ">
+            <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 " id="motivatie.notes">
         
               <p>
                 CityCommons s-a născut din dorința de a contribui temeinic la crearea unui sistem și a unei culturi etice și competente care să asigurare viitorului sustenabil și rezilient al comunităților românești.
@@ -219,14 +180,14 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Audienta</h2>
-          <p>Cui se adreseaza aceasta metodologie?</p>
+          <h2 id="audienta.titlu">Pentru cine</h2>
+          <p id="audienta.subtitlu">Cui se adreseaza aceasta metodologie?</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-8" >
-            <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 ">
+            <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 " id="audienta.notes">
         
               <p>
                 cui se adreseaza CC ... aici scriem rolurile (specialist, consultant, functionar, om politic, primar, cetatean) care doreste sa isi dezvolte limbajul si intelegerea a ceea ce inseamna dezvoltare inteligenta, sustenabila, rezilienta. care este ordinea in care ar trebui sa citeasca pagina noastra cei care ne viziteaza
@@ -259,27 +220,26 @@
           <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-stretch">
 
             <div class="content" data-aos="fade-up">
-              <h3>De unde <strong>plecam</strong> si unde ne propunem sa <strong>ajungem</strong>?</h3>
-              <p>
-                Text despre un proces cu cap si coada
-              </p>
+              <h2 id="parcurs.titlu">De unde <strong>plecam</strong> si unde ne propunem sa <strong>ajungem</strong>?</h2>
+              <p id="parcurs.subtitlu">Text despre un proces cu cap si coada</p>
             </div>
 
             <div class="accordion-list">
+			
               <ul>
                 <li data-aos="fade-up" data-aos-delay="100">
-                  <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>De unde plecam?</span>  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span id="prezent.titlu">De unde plecam?</span>  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
-                    <p>
+                    <p id="prezent.notes">
                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
                     </p>
                   </div>
                 </li>
 
                 <li data-aos="fade-up" data-aos-delay="200">
-                  <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>Unde ne propunem sa ajungem?</span>  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span id="viitor.titlu">Unde ne propunem sa ajungem?</span>  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
-                    <p>
+                    <p id="viitor.notes">
                       Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                     </p>
                   </div>
@@ -307,7 +267,7 @@
       <div class="container">
 	  
         <div class="section-title" data-aos="fade-up">
-          <h2>Metodologie</h2>
+          <h2></h2>
           <p>Care sunt elementele componente ale metodologiei City Commons?</p>
         </div>	  
 	  
@@ -602,6 +562,93 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+
+  <script>
+	var initialURL = "https://api.airtable.com/v0/appCJuhYQYfYBUl2f/XXXXX?api_key=keyzOUqPwQHhykRiX";
+
+	function site (item) {
+		try {
+			set (item.Tag + ".menu", item.Titlu);	
+			set (item.Tag + ".titlu", item.Titlu);	
+			set (item.Tag + ".subtitlu", item.Subtitlu);	
+			set (item.Tag + ".notes", item.Notes);
+			
+			
+		} catch (err) {
+		
+			try {
+				var x = document.getElementsByClassName(item.property);
+				for (var i = 0; i < x.length; i++) {
+				  x[i].innerHTML = item.value;
+				}
+			} catch (err) { }
+		}
+	}
+	request (initialURL.replace("XXXXX", "PP_MesajGen"), site);
+	
+	function set(id, value) {
+		try {		
+			document.getElementById (id).innerHTML = value;		
+		} catch (err) {/*eat it*/				
+			//console.log(err);
+		}
+	}
+
+	function faq (item, id) {		
+	
+		var itm = document.getElementById("faq.element");
+		var cln = itm.cloneNode(true);
+		
+		var c = cln.children;
+		c[0].href = "#" + id;
+		
+		var a = c[0].children;
+		a[0].innerHTML = item.Intrebare;
+		
+		c[1].id = id;
+		var b = c[1].children;
+		b[0].innerHTML = item.Raspuns;
+		
+		//document.getElementById("faq.id1").href = "#" + id;
+		//document.getElementById("faq.id2").id = id;
+		//document.getElementById("faq.Intrebare").innerHTML = item.Intrebare;			
+		//document.getElementById("faq.Raspuns").innerHTML = item.Raspuns;		
+		//var cln = itm.cloneNode(true);
+		cln.style.display = "inline";
+		
+		document.getElementById("faq.list").appendChild(cln).appendChild(document.createElement("br"));		
+	}
+	request (initialURL.replace("XXXXX", "PP_FAQ"), faq);
+
+	function request (url, fnc, last) {
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function() {
+		  if (this.readyState == 4 && this.status == 200) {
+			
+			var myObj = JSON.parse(this.responseText);
+			
+			if (myObj.records instanceof Array) {
+				
+				for (var i=0; i<myObj.records.length; i++) {		
+					fnc(myObj.records[i].fields, myObj.records[i].id);
+				}
+						
+				try {
+					last();
+				} catch (err) {/*eat it*/}
+						
+				return myObj.records;
+				
+			}
+		  }
+		};
+		xmlhttp.open("GET", url, true);
+		xmlhttp.send();
+	}
+	
+  </script>
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
